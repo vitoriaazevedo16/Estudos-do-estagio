@@ -1,0 +1,92 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+:root{
+
+  --red: #fff3f3;
+  --yellow: #cba40a;
+  --pink: #b7009c;
+  --degrade-btn: linear-gradient(rgb(198, 36, 36) , #de1515);
+  --orange: rgb(255, 253, 249);
+  --degrade-orange-red: linear-gradient(rgb(224, 143, 35) , #de1515);
+  
+}
+
+.background-orange{
+
+ background: var(--red); 
+}
+
+hr{
+  background-image: linear-gradient(to right, rgb(242, 23, 23), rgb(255, 206, 10));
+}
+
+/*Classe reutilizável*/
+.container{
+
+  max-width: 1440px;
+  padding: 0 5%;
+  margin: 0 auto;
+}
+
+
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+
+
+
+.btn-gradient{
+  padding: 10px 25px;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  background-image: var(--degrade-btn);
+}
+
+
+
+
+
+
+
+
+.container {
+  padding: 2px 16px;
+
+}
+
+
+
+
+.body {
+  width: 100%;
+  height: 100vh;
+  background-image: url(imagens/fundo.png);
+  background-position: center;
+  background-repeat: no-repeat ;
+  background-size: cover;
+}
+
+.div banner1 {
+
+  background-color: black;
+
+}
+
+
+
+
+  
+
