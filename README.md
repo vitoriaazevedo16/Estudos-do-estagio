@@ -1,7 +1,11 @@
 # Estudos-do-estagio
 Estudos do estágio e projetos.
-dia 13/08
+
+Dia 13/08
 estruturação do cabeçalho.
 
- dia 14/08
+ Dia 14/08
 estruturação do rodape.
+
+dia 15/08
+modifição feita no container de produtos (contrução do mesmo).
