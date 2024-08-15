@@ -1,0 +1,156 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+
+
+:root{
+
+  --white: #ffffff;
+  --yellow: #cba40a;
+  --pink: #b7009c;
+  --degrade-btn: linear-gradient(rgb(198, 36, 36) , #de1515);
+  --orange: rgb(255, 253, 249);
+  --degrade-orange-red: linear-gradient(rgb(224, 143, 35) , #de1515);
+  
+}
+
+.background-menu{
+
+ background: var(--white); 
+}
+
+hr{
+  background-image: linear-gradient(to right, rgb(242, 23, 23), rgb(255, 206, 10));
+}
+
+/*Classe reutilizável*/
+.container{
+
+  max-width: 1440px;
+  padding: 0 5%;
+  margin: 0 auto;
+}
+
+
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+
+
+
+.btn-gradient {
+  padding: 10px 25px;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  background-image: var(--degrade-btn);
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+
+
+
+
+
+
+.container {
+  padding: 2px 16px;
+
+}
+
+
+
+
+
+/* div da faixa de produtos*/
+div#produtos {
+
+  background-color: rgb(0, 0, 0);
+  height: 75px;
+  text-align: center;
+  
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Moderustic:wght@300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300..700&display=swap');
+
+h3#textproduct {
+  padding-top: 30px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 100;
+}
+
+/*container geral das imagens dos produtos*/
+.container#geralp{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Ajusta o número de colunas automaticamente */
+  justify-content: center; /* Centraliza horizontalmente */
+  gap: 10px; /* Espaçamento entre os itens */
+  place-items: center; 
+  padding: 20px;
+}
+
+.image{
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  text-align: center;
+  flex: 1 1 200px; /*  tamanho das caixas */
+  max-width: 200px; /* largura máxima das imagens */
+  max-height: 150px;
+
+}
+
+.image img{ 
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Moderustic:wght@300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.image .text#decima{
+  color: #040404; 
+  font-size: 18px; /*  tamanho da fonte  */
+  padding: 5px;
+  font-weight: 900;
+  font-family: "Rubik", sans-serif;
+}
+
+.text#debaixo{
+  padding-top: 50px;
+  color: #3c3c3c;
+}
+
+.body {
+
+  background-image: url(imagens/viagem.png);
+}
+
+.btn-gradient#b {
+  padding: 10px 25px;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  background-image: var(--degrade-btn);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 20px;
+  cursor: pointer;
+  padding: 20px;
+ 
+ 
+}
