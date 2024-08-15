@@ -7,5 +7,5 @@ estruturação do cabeçalho.
  Dia 14/08
 estruturação do rodape.
 
-dia 15/08
+Dia 15/08
 modifição feita no container de produtos (contrução do mesmo).
