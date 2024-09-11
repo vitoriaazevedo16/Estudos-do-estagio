@@ -1,0 +1,12 @@
+/* Delimita as linhas de comentário*/
+//Pode ser usado do lado de comandos
+
+//var ou let-- identifica se e variavel
+
+/*As variaveis podem comecar com letra, $ ou _
+-Nao pode comecar com numeros;
+-Pode utilizar letras ou numeros
+-E possivel usar acentos e simbolos
+-Nao pode utilizar palavras reservadas para comandos
+*/
+
