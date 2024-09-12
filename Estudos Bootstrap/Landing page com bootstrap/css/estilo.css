@@ -1,0 +1,8 @@
+hr {
+    background: linear-gradient(to right, rgb(248, 9, 9), rgb(236, 159, 16));
+    height: 5px;
+}
+
+.paragrafo-rodape{
+    color: rgb(28, 28, 99);
+}
