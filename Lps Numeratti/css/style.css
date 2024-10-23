@@ -192,3 +192,26 @@ strong{
     width: 248px;
     height: 248px;
 }
+
+/*Container da Seção 3*/
+.col-4{
+    padding: 0 0 25px;
+}
+
+/* 3 container da seção 3*/
+.col-6-seo{
+padding: 0 0 0 20px;
+
+}
+
+/*relacionado aos cards da seção 3 - ajeitar*/
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .box {
+    width: 50%; /* Duas colunas */
+    height: 100px; /* Altura para visualização */
+  }
+  
