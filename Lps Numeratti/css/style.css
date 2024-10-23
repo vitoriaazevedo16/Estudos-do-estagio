@@ -81,6 +81,10 @@
     
     
 }
+/*Ultimo paragrafo da seção 2*/
+.fs-6{
+    color: #000000;
+}
 
 .h1{
     color:#1B7DAE;
@@ -115,10 +119,24 @@ hr{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 48px;
     font-style: normal;
-    font-weight: 700;
     line-height: normal;
 }
 
+.btn-secao2{
+    font-size:medium;
+    color: white;
+    display: flex;
+    width: 350px;
+    height: 50px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 0;
+    background: var(--Sail-600, #1B7DAE);
+}
 .titulo-secao2{
     padding: 221px 221px 0 0;
     
@@ -138,8 +156,9 @@ hr{
     height: 593px;
 }
 
-.fs-6{
+#paragrafo1-secao2{
     color: #000000;
+    padding: 10px 150px 0 0;
 
 }
 
@@ -148,16 +167,7 @@ hr{
 }
 
 
-.paragrafo1-secao2{
-    color: #000000;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 35px; /* 145.833% */
-    padding: 50px 30px;
-    
-}
+
 
 strong{
     color: #1B7DAE;
@@ -179,5 +189,6 @@ strong{
 }
 
 .card-body{
-    
+    width: 248px;
+    height: 248px;
 }
