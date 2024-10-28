@@ -1,3 +1,33 @@
+/*Container da seção 5 com as logomarcas*/
+.image-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto; /* Adiciona rolagem horizontal se necessário */
+}
+
+
+
+#container-texto-secao6{
+    margin-top: 10rem;
+}
+
+
+.card{
+    width: 25rem;
+    height: 30rem;
+}
+
+
+
+
+#container-rodape{
+    background-color: #FF900F;
+    width: 1440px;
+}
+
+
+
+
 
 
 .link-whatsapp{

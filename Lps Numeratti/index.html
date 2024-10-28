@@ -20,11 +20,12 @@
         <div>
 
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
+
+                <div class="container-fluid" style="gap: 190.01px;">
 
                     <a class="navbar-brand" style="padding: 0 0 0 50px;" href="#">
 
-                        <img src="imagens_lp_medicos/logo.svg" class="img-fluid" alt="Logo">
+                        <img src="imagens_lp_medicos/logo.svg" class="img-fluid w-75" alt="Logo">
 
                     </a>
 
@@ -37,7 +38,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
 
-                        <div style="padding: 0 200px 0 300px;">
+                        <div>
 
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
@@ -57,7 +58,11 @@
 
                         </div>
 
-                        <button class="" type="button">Fale com um especialista</button>
+                        <div style="padding: 0 0 0 153.13px;">
+                            <button class="" type="button">Fale com um
+                                especialista</button>
+                        </div>
+
 
                     </div>
 
@@ -190,7 +195,6 @@
         <section class="secao3">
 
             <h2>Nossos serviços <span style="color:#1B7DAE;">Especializados</span> </h2>
-
 
 
             <!-- 1 Container com os cards *colocar um deslocamento entre esse container e o 2-->
@@ -456,49 +460,60 @@
         <section class="secao5">
             <h3 class="text-center"> Potencialize sua prática médica hoje!</h3>
 
-            <!--Div com as logomarcas *ajeitar a rolagem para o lado-->
-            <div class="col d-flex flex-wrap d-flex justify-content-flex-direction align-items-baseline bg-success"
-                style="gap: 20px;">
+            <!--Div com as logomarcas-->
+            <div class="container mt-4">
 
-                <figure>
-                    <img src="imagens_lp_medicos/logo_crio.png" alt="crio">
+                <div class="image-container">
 
-                </figure>
+                    <div class="col-3">
 
-                <figure>
-                    <img src="imagens_lp_medicos/logo_aloma.png" alt="aloma">
+                        <img src="imagens_lp_medicos/logo_crio.png" class="img-fluid" alt="logo crio">
 
-                </figure>
+                    </div>
 
-                <figure>
-                    <img src="imagens_lp_medicos/logo_odonto_center.png" alt="odontocenter">
+                    <div class="col-3">
 
-                </figure>
+                        <img src="imagens_lp_medicos/logo_aloma.png" class="img-fluid" alt="logo aloma">
 
-                <figure>
-                    <img src="imagens_lp_medicos/logo_grupo_bipp.png" alt="grupobipp">
+                    </div>
 
-                </figure>
+                    <div class="col-3">
 
-                <figure>
-                    <img src="imagens_lp_medicos/logo_cpot.png" alt="cpot">
+                        <img src="imagens_lp_medicos/logo_odonto_center.png" class="img-fluid" alt="logo odonto_center">
 
-                </figure>
+                    </div>
 
-                <figure>
-                    <img src="imagens_lp_medicos/logo_kora_saude.png" alt="kora_saude">
+                    <div class="col-3">
 
-                </figure>
+                        <img src="imagens_lp_medicos/logo_grupo_bipp.png" class="img-fluid" alt="logo bipp">
 
-                <figure>
-                    <img src="imagens_lp_medicos/logo_salvata.png" alt="salvata">
+                    </div>
 
-                </figure>
+                    <div class="col-3">
 
-                <figure>
-                    <img src="imagens_lp_medicos/logo_pedro_guilme.png" alt="dr_guilme">
+                        <img src="imagens_lp_medicos/logo_cpot.png" class="img-fluid" alt="logo cpot">
 
-                </figure>
+                    </div>
+
+                    <div class="col-3">
+
+                        <img src="imagens_lp_medicos/logo_kora_saude.png" class="img-fluid" alt="logo kora">
+
+                    </div>
+
+                    <div class="col-3">
+
+                        <img src="imagens_lp_medicos/logo_salvata.png" class="img-fluid" alt="logo salvata">
+
+                    </div>
+
+                    <div class="col-3">
+
+                        <img src="imagens_lp_medicos/logo_pedro_guilme.png" class="img-fluid" alt="logo pedro guilme">
+
+                    </div>
+
+                </div>
 
             </div>
 
@@ -529,54 +544,126 @@
         <!--Seção 6-->
         <section>
 
-            <!--Container geral que contém o texto e o card do formulário-->
-            <div class="container">
+            <div class="container mb-5">
 
                 <div class="row">
 
-                    <div class="col-4 bg-primary" style="gap: 20px;">
+                    <div class="col-sm" id="container-texto-secao6">
 
                         <p class="fs-4">Descobrir como nossos serviços especializados podem
                             <strong>elevar sua presença online</strong> e <strong>atrair mais pacientes
                                 qualificados.</strong>
                         </p>
 
-                        <!--Card que contém o formulário-->
-                        <div class="card" style="width: 15rem; height: 15rem;">
+                    </div>
+
+                    <!-- Container com card e formulário-->
+                    <div class="col-md-6 col-6-sm">
+
+                        <div class="card">
 
                             <div class="card-body">
 
+                                <h5 class="card-title">Queremos Impulsionar Seu Negócio!</h5>
+
+                                <p class="card-text">Preencha o formulário e descubra como nossa consultoria pode
+                                    aumentar sua
+                                    presença digital e vendas.
+                                </p>
+
+                                <form action="" method="POST">
+
+                                    <div class="row">
+
+                                        <div class="col">
+
+                                            <input type="text" class="form-control" placeholder="Nome" required>
+
+                                        </div>
+
+                                        <div class="col">
+
+                                            <input type="tel" class="form-control" placeholder="Telefone" required>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="mb-3 mt-3">
+
+                                        <input type="email" class="form-control" placeholder="Email" id="email"
+                                            required>
+
+                                    </div>
+
+                                    <div class="mb-3">
+
+                                        <input type="text" class="form-control" placeholder="Empresa" id="empresa"
+                                            required>
+
+                                    </div>
+
+                                    <div class="mb-3">
+
+                                        <input type="int" class="form-control" placeholder="6 + 1?" id="soma" required>
+
+                                    </div>
+
+                                    <div class="mb-3 form-check">
+
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+
+                                        <label class="form-check-label" for="exampleCheck1">Aceito os termos de politica
+                                            de privacidade!
+
+                                        </label>
+
+                                    </div>
+
+                                    <div class="d-flex justify-content-center">
+
+                                        <button type="submit" class="btn btn-primary w-100">Desejo Falar com um
+                                            Especialista!</button>
+
+                                    </div>
+
+                                </form>
+
+
+
+
+
+                                <!-- <form action="" method="POST">
+
+                                <label for="nome">Nome:</label>
+                                <input type="text" id="nome" name="nome" required>
+                
+                                <label for="telefone">Telefone:</label>
+                                <input type="tel" id="telefone" name="telefone" required>
+                
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+                
+                                <label for="empresa">Empresa:</label>
+                                <input type="text" id="empresa" name="empresa" required>
+                
+                                <label for="soma">6 + 1 =?</label>
+                                <input type="number" id="soma" name="soma" required>
+                
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Aceito os termos de política de
+                                    privacidade!</label>
+                
+                                <button type="submit">Desejo Falar com um Especialista!</button>
+                            </form>-->
+
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
 
-
-
-
-            <!--<form action="" method="POST">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
-
-                <label for="telefone">Telefone:</label>
-                <input type="tel" id="telefone" name="telefone" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="empresa">Empresa:</label>
-                <input type="text" id="empresa" name="empresa" required>
-
-                <label for="soma">6 + 1 =?</label>
-                <input type="number" id="soma" name="soma" required>
-
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Aceito os termos de política de
-                    privacidade!</label>
-
-                <button type="submit">Desejo Falar com um Especialista!</button>
-            </form>-->
 
         </section>
 
@@ -585,7 +672,7 @@
     <!--Rodápe *ajustar só algumas dimensões nas divs-->
     <footer">
 
-        <div class="container">
+        <div class="container" id="container-rodape">
 
             <div class="row">
 
@@ -620,7 +707,7 @@
 
 
                 <!--Container 2-->
-                <div class="col-sm bg-info">
+                <div class="col-sm">
 
                     <p class="d-flex justify-content-center">Política de privacidade </p>
 
@@ -654,7 +741,7 @@
 
                 <!--Container 3-->
 
-                <div class="col-sm bg-danger">
+                <div class="col-sm">
 
                     <div class="d-flex align-items-baseline-center">
 
