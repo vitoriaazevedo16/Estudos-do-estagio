@@ -24,17 +24,42 @@
     padding-bottom: 41%;
 }
 
+
+@media screen and (max-width: 320px){
+	.secao1{
+        padding-bottom: 100%;
+
+    }
+}
+
+
 .article-secao1{
     position: absolute;
     top: 50%;
     left: 0%;
     transform: translate(0%, -50%);
+    color: #1B7DAE;
 }
 
 
 #imagens-icone-medalha{
     width: 40; 
     height:40;
+}
+
+.btn{
+    background-color: #1B7DAE;
+    color: #ffffff;
+    border-radius: 20px;
+    width: 300px;
+}
+
+strong{
+    color: #1B7DAE;
+}
+
+.cor-texto{
+    color: #1B7DAE;
 }
 
 /*1 container com os dois primeiros cards da seção 3*/
