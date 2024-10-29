@@ -1,0 +1,12 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="vuesax/linear/user-tick">
+<g id="user-tick">
+<path id="Vector" d="M40 40C49.2047 40 56.6667 32.5381 56.6667 23.3333C56.6667 14.1286 49.2047 6.66666 40 6.66666C30.7952 6.66666 23.3333 14.1286 23.3333 23.3333C23.3333 32.5381 30.7952 40 40 40Z" stroke="#1B7DAE" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M11.3667 73.3333C11.3667 60.4333 24.2 50 40 50C43.2 50 46.3 50.4333 49.2 51.2333" stroke="#1B7DAE" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="Group">
+<path id="Vector_3" d="M73.3333 60C73.3333 62.5 72.6334 64.8666 71.4 66.8666C70.7 68.0666 69.8 69.1333 68.7667 70C66.4333 72.1 63.3667 73.3333 60 73.3333C55.1333 73.3333 50.9 70.7333 48.6 66.8666C47.3666 64.8666 46.6667 62.5 46.6667 60C46.6667 55.8 48.6 52.0333 51.6667 49.6C53.9667 47.7667 56.8667 46.6667 60 46.6667C67.3667 46.6667 73.3333 52.6333 73.3333 60Z" stroke="#1B7DAE" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M54.8 60L58.1 63.3L65.2 56.7334" stroke="#1B7DAE" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</svg>
