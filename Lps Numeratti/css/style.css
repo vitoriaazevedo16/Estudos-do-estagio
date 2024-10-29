@@ -62,6 +62,10 @@ strong{
     color: #1B7DAE;
 }
 
+.color-white{
+    color: white;
+}
+
 /*1 container com os dois primeiros cards da seção 3*/
 #1container-cards {
     gap: 20px;
@@ -88,8 +92,6 @@ container-geral-cards{
     width: 15rem; 
     height: 15rem; 
 }
-
-
 
 
 /* Container geral com os 2 primeiros cards da Seção 4*/
@@ -141,7 +143,33 @@ footer{
     gap:0;
 }
 
+/*Css relacionado ao carrossel de logos*/
+.logos-slide img {
+    height: 50px;
+    margin: 0 40px;
+  }
 
+  .logos {
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 60px 0;
+    background-color: #FFFFFF;
+  }
+
+
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  .logos-slide {
+    display: inline-block;
+    animation: 35s slide infinite linear;
+    
+  }
 
 .link-whatsapp{
     position:fixed;
