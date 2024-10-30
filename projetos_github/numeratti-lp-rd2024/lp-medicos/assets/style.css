@@ -1,4 +1,4 @@
-/*Padrões de textos e cores*/
+/*Padrões de textos e cores
 .cor-azul{
     color: #1B7DAE;
 }
@@ -6,14 +6,78 @@
 .cor-branco{
     color: white;
 }
-
-.inter {
+*/
+html, body{
+    margin: 0;
+    padding: 0;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 700;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+
+
+
+  .inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
     font-style: normal;
   }
 
+  :root{
+    --bs-border-radius: 10px;
+   
+  }
+
+  .btn{
+
+    height: 54px;
+    --bs-btn-padding-y: 8px;
+    --bs-btn-padding-x: 16px;
+  }
+  /*botão do navbar*/
+
+  .btn-outline-primary {
+    --bs-btn-color: #1B7DAE;
+    --bs-btn-border-color: #1B7DAE;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #1B7DAE;
+    --bs-btn-hover-border-color: #1B7DAE;
+    --bs-btn-focus-shadow-rgb: 13, 110, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #1B7DAE;
+    --bs-btn-active-border-color: #1B7DAE;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #1B7DAE;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #1B7DAE;
+    --bs-gradient: none;
+    
+}
+
+header {
+    height: 120px;
+    display: flex;
+    align-items: center;
+
+}
+
+@media  (max-width: 942px) {
+    navbar-collapse{
+        position: absolute;
+        top: 120px;
+        background-color: rgb(255, 255, 255);
+        width: calc(100% + 24px);
+        margin: 0px -24px;
+        padding: 20px;
+    }
+  }
+
+
+/*
 #navbarSupportedContent{
     justify-content: space-between;
 }
@@ -30,7 +94,7 @@
 
 
 .secao1{
-    background-image: url("../imagens_lp_medicos/imagem_fundo.png");
+    background-image: url("../assets/images/banner_principal.png");
     width: 100%;
     height: auto;
     background-size: cover;
@@ -62,7 +126,8 @@
     width: 40; 
     height:40;
 }
-
+*/
+/*
 .btn{
     background-color: #1B7DAE;
     color: #ffffff;
@@ -70,9 +135,14 @@
     width: 300px;
 }
 
+#botao-navbar{
+    border-radius: 10px;
+    border: 1.5px solid var(--Sail-600, #1B7DAE);
+    width: 251px;
+}
 
 
-/*1 container com os dois primeiros cards da seção 3*/
+/*1 container com os dois primeiros cards da seção 3
 #1container-cards {
     gap: 20px;
 }
@@ -88,53 +158,54 @@
     height: 15rem;
 }
 
-/*Container geral dos cards de baixo seção 3*/
+/*Container geral dos cards de baixo seção 3
 container-geral-cards{
     gap: 20px;
-}
+}/*
 
-/*Todos os cards da seção 4*/
+/*Todos os cards da seção 4
 #cards-secao4{
     width: 15rem; 
     height: 15rem; 
 }
+*/
 
 
 
-
-/* Container geral com os 2 primeiros cards da Seção 4*/
+/* Container geral com os 2 primeiros cards da Seção 4
 #container1-geral-cards{
     gap: 20px;
 }
 
+*/
 
 
 
-
-/*2 Container geral de cards da secao 4*/
+/*2 Container geral de cards da secao 4
 container2-geral-cards{
     gap: 20px;
 }
+*/
 
-/*Figure feedbacks secao5*/
+/*Figure feedbacks secao5
 figure-feedback{
     padding: 0 0 0 40px;
 }
-
-/*Container da seção 5 com as logomarcas*/
+*/
+/*Container da seção 5 com as logomarcas
 .image-container {
     display: flex;
     flex-wrap: nowrap;
-    overflow-x: auto; /* Adiciona rolagem horizontal se necessário */
+    overflow-x: auto; /* Adiciona rolagem horizontal se necessário 
 }
+*/
 
-
-
+/*
 #container-texto-secao6{
     margin-top: 10rem;
-}
+}*/
 
-/*Card do formulário*/
+/*Card do formulário
 .card{
     width: 25rem;
     height: 30rem;
@@ -143,15 +214,15 @@ figure-feedback{
 
 footer{
     background-color: #FF900F;
-}
+}*/
 
-/*Container das bandeiras no rodapé*/
+/*Container das bandeiras no rodapé
 #container-bandeiras{
     display: flex;
     gap:0;
-}
+}*/
 
-/*Css relacionado ao carrossel de logos*/
+/*Css relacionado ao carrossel de logos
 .logos-slide img {
     height: 50px;
     margin: 0 40px;
@@ -180,8 +251,8 @@ footer{
     
   }
 
-
-
+*/
+/*
 .link-whatsapp{
     position:fixed;
     width:60px;
@@ -196,4 +267,4 @@ footer{
     box-shadow: 1px 1px 2px #888;
     z-index:1000;
 }
-
+*/
