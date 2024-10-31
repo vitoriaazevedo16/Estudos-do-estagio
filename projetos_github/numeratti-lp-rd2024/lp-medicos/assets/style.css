@@ -1,4 +1,4 @@
-/*Padrões de textos e cores
+Padrões de textos e cores
 .cor-azul{
     color: #1B7DAE;
 }
@@ -6,7 +6,7 @@
 .cor-branco{
     color: white;
 }
-*/
+
 html, body{
     margin: 0;
     padding: 0;
@@ -32,14 +32,15 @@ html, body{
    
   }
 
+  /*botão do navbar*/
   .btn{
 
     height: 54px;
     --bs-btn-padding-y: 8px;
     --bs-btn-padding-x: 16px;
   }
-  /*botão do navbar*/
-
+  
+/*botão do navbar - cor*/
   .btn-outline-primary {
     --bs-btn-color: #1B7DAE;
     --bs-btn-border-color: #1B7DAE;
@@ -55,6 +56,7 @@ html, body{
     --bs-btn-disabled-bg: transparent;
     --bs-btn-disabled-border-color: #1B7DAE;
     --bs-gradient: none;
+    font-weight: 600;
     
 }
 
@@ -65,7 +67,7 @@ header {
 
 }
 
-@media  (max-width: 942px) {
+@media screen and (max-width:942px) {
     navbar-collapse{
         position: absolute;
         top: 120px;
@@ -76,6 +78,64 @@ header {
     }
   }
 
+
+h1{
+    font-weight: 500;
+    font-size: 64px;
+}  
+
+/*Vem antes do h1*/
+#paragrafo-1{
+    font-size: 42px;
+    font-weight: 400;
+}
+
+/*Vem após o h1*/
+.paragrafo-2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+hr{
+    width: 454.03px;
+    border-color:#1B7DAE; 
+    
+  
+}
+
+.secao1{
+    color:  #1B7DAE;
+    background-image: url("../assets/images/banner_principal.png");
+    height: 768px;
+    background-position-x: right;
+}
+
+.article-secao1{
+    padding: 120px 0 0 0;
+}
+
+strong{
+    color:#1B7DAE;
+}
+
+#titulo-secao2{
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+#container-secao2{
+    font-weight: 400;
+    font-size: 17px;
+}
+
+#botao-secao2{
+    width: 3900px;
+    border-radius: 25px;
+    height: 50px;
+    background-color: #1B7DAE;
+    
+    
+}
 
 /*
 #navbarSupportedContent{
