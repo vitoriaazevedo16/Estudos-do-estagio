@@ -7,99 +7,255 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/estilo.css">
 
 </head>
 
 <body>
 
+    <!--Cabeçalho-->
     <header>
-        <div class="cabecalho">
 
-            <figure>
-                <img src="" alt="logo_site">
+        <div class="container-xl">
 
-            </figure>
+            <nav class="navbar navbar-expand-lg p-2">
 
-            <nav>
-                <ul class="menu">
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">Benefícios</a>
-                </ul>
+                <div class="container-fluid">
+
+                    <a class="navbar-brand m-0 p-0" href="#">
+
+                        <figure class="m-0">
+
+                            <img src="assets/images/logo_numeratti.png" class="img-fluid" alt="Logo">
+
+                        </figure>
+
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+
+                        <span class="navbar-toggler-icon"></span>
+
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                        <ul class="navbar-nav d-flex justify-content-center flex-fill">
+
+                            <li class="nav-item">
+
+                                <a class="nav-link active" aria-current="page" href="#">Sobre</a>
+
+                            </li>
+
+                            <li class="nav-item">
+
+                                <a class="nav-link" href="#">Serviços</a>
+
+                            </li>
+
+                            <li class="nav-item">
+
+                                <a class="nav-link" href="#">Benefícios</a>
+
+                            </li>
+
+                        </ul>
+
+                        <div class="d-flex">
+
+                            <button class="btn btn-outline-success" type="submit">Fale com um especialista</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
             </nav>
 
-            <button class="" type="button"> Fale com um especialista </button>
 
         </div>
 
     </header>
+
     <main>
-        <!--Seção 1 - Nesta seção, possui uma imagem de fundo-->
-        <section>
 
-            <article>
-                <h2> </h2>
+        <!--Seção 1 - Versão Mobile-->
 
-                <h1> <strong> </strong> </h1>
+        <section class="d-lg-none">
 
-                <p> <strong> </strong></p>
 
-            </article>
+            <div class="container-sm p-3">
 
-            <svg>
-                <title> </title>
-                <desc> </desc>
-            </svg>
+
+                <article class="article-secao1">
+
+                    <h2>Aumente Suas Vendas<br> com Perfomance em Campanhas Digitais </h2>
+
+                    <hr>
+
+                    <p> Quer impulsionar as vendas da sua loja de moda? Nosso serviço de marketing digital direciona o
+                        tráfego certo para o seu site, aumentando
+                        a visibilidade e convertendo visitantes em clientes. </p>
+
+                </article>
+
+
+            </div>
 
         </section>
+
+
+        <!--Seção 1 - Versão Desktop-->
+
+        <section class="d-lg-block bg-info" id="secao1">
+
+
+            <div class="col-4 p-3 m-5">
+
+                <article class="article-secao1">
+
+                    <h1>Aumente Suas Vendas<br> com Perfomance em Campanhas Digitais </h1>
+
+                    <hr>
+
+                    <p> Quer impulsionar as vendas da sua loja de moda? Nosso serviço de marketing digital direciona o
+                        tráfego certo para o seu site, aumentando
+                        a visibilidade e convertendo visitantes em clientes. </p>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
 
         <!--Seção 2-->
         <section>
-            <div>
-                <h2> <strong> </strong> </h2>
-            </div>
 
-            <article>
-                <span class="" aria-hidden=""> </span>
-                <h3> </h3>
+            <div class="container text-center ">
 
-                <p> </p>
+                <div class="row">
+
+                    <!--Container de texto-->
+                    <div class="col-sm bg-danger">
+
+                        <h2> Por que <strong> escolher</strong> nosso <strong> serviço </strong> de <strong> performance
+                            </strong> <strong> digital </strong> através de <strong> Mídia Paga </strong></h2>
+
+                    </div>
+
+                    <!--Container dos cards-->
+                    <div class="col-sm bg-info row">
+
+                        <div class="card" style="width: 18rem;">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div>
+
+                        </div>
+
+                        <div class="card" style="width: 18rem;">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div>
+
+                        </div>
+
+                        <div class="card" style="width: 18rem;">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div>
+
+                        </div>
+
+                        <div class="card" style="width: 18rem;">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
 
 
-            </article>
 
-            <article>
-                <span class="" aria-hidden=""> </span>
-                <h3> </h3>
+                <div>
+                    <h2> <strong> </strong> </h2>
+                </div>
 
-                <p> </p>
+                <article>
+                    <span class="" aria-hidden=""> </span>
+                    <h3> </h3>
 
-
-            </article>
-
-            <article>
-                <span class="" aria-hidden=""> </span>
-                <h3> </h3>
-
-                <p> </p>
+                    <p> </p>
 
 
-            </article>
+                </article>
 
-            <article>
-                <span class="" aria-hidden=""> </span>
-                <h3> </h3>
+                <article>
+                    <span class="" aria-hidden=""> </span>
+                    <h3> </h3>
 
-                <p> </p>
+                    <p> </p>
 
 
-            </article>
+                </article>
+
+                <article>
+                    <span class="" aria-hidden=""> </span>
+                    <h3> </h3>
+
+                    <p> </p>
+
+
+                </article>
+
+                <article>
+                    <span class="" aria-hidden=""> </span>
+                    <h3> </h3>
+
+                    <p> </p>
+
+
+                </article>
 
         </section>
 
-        <!--Seção 3-->
+        <!--Seção 3
         <section>
 
             <figure>
@@ -138,9 +294,9 @@
             </article>
 
 
-        </section>
+        </section>-->
 
-        <!--Seção 4-->
+        <!--Seção 4
         <section>
             <h3> </h3>
 
@@ -183,9 +339,9 @@
 
 
 
-        </section>
+        </section>-->
 
-        <!--Seção 5-->
+        <!--Seção 5
         <section>
 
             <h2> </h2>
@@ -205,9 +361,9 @@
             </div>
 
 
-        </section>
+        </section>-->
 
-        <!--Seção 6-->
+        <!--Seção 6
         <section>
 
             <article>
@@ -246,11 +402,11 @@
             </div>
 
 
-        </section>
+        </section>-->
 
     </main>
 
-    <!--Rodápe-->
+    <!--Rodápe
     <footer>
         <p> </p>
 
@@ -302,7 +458,15 @@
         </svg>
 
         <p> </p>
-    </footer>
+    </footer>-->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
 
 </body>
 

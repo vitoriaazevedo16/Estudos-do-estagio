@@ -105,9 +105,9 @@ hr{
 
 .secao1{
     color:  #1B7DAE;
-    background-image: url("../assets/images/banner_principal.png");
+   /* background-image: url("../assets/images/banner_principal.png");*/
     height: 768px;
-    background-position-x: right;
+   
 }
 
 .article-secao1{
