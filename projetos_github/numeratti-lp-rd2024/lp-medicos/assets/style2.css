@@ -1,3 +1,10 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
 /*Botão do Navbar*/
 .btn-outline-success {
     --bs-btn-color: #198754;
@@ -16,3 +23,7 @@
     --bs-gradient: none;
 }
 
+
+.article-secao1{
+    padding: 204px 0 0 0;
+}
